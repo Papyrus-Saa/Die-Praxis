@@ -1,13 +1,630 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../src/css/styles.css">
-  <!-- Cambiar por css/styles.min.css al finalizar el proyecto -->
-  <title>''</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/eac43127e7.js"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Dancing+Script:wght@400;600&family=Inter:wght@300&family=Lato:wght@400;900&family=Quicksand&family=Raleway:ital,wght@0,300;0,700;1,400&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <!-- Cambiar por css/styles.min.css al finalizar el proyecto -->
+    <title>Praxis Kohla Startseite</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="header__menu">
+        <a href="http://127.0.0.1:5500/docs/index.html#">
+          <img
+            class="logo-praxis"
+            src="assets/logo/Logo_Praxis_Kohla.png"
+            alt="praxis-logo"
+        /></a>
+        <div class="div-menu">
+          <i id="menu-praxis" class="fa-solid fa-bars menu-praxis"></i>
+        </div>
+      </div>
+      <div id="dropdown" class="dropdown">
+        <nav>
+          <ul>
+            <li class="dropdown__items">
+              <a id="leistungenLink" class="dropdown__item" href="#"
+                >Leistungen</a
+              >
+            </li>
+            <li class="dropdown__items">
+              <a id="diePraxis" class="dropdown__item" href="#">Die Praxis</a>
+            </li>
+            <li class="dropdown__items">
+              <a id="praxisTeamLink" class="dropdown__item" href="#"
+                >Das Praxisteam</a
+              >
+            </li>
+            <li class="dropdown__items">
+              <a class="dropdown__item" href="#">Spechstundenzeiten</a>
+            </li>
+            <li class="dropdown__items">
+              <a class="dropdown__item" href="#">Impressum</a>
+            </li>
+            <li class="dropdown__items">
+              <a class="dropdown__item" href="#">Datenschutz </a>
+            </li>
+          </ul>
+        </nav>
+        <i id="backX" class="fa-solid fa-x"></i>
+      </div>
+      <div id="optionContainer" class="optionContainer section-style">
+        <div id="leistungenBlock" class="leistungenBlock section-style">
+          <h3 class="optionContainer__title">Terminvergabe</h3>
+          <p class="optionContainer__paragraph">
+            Terminvergabe: Um Ihre Wartezeit so gering wie möglich zu halten,
+            möchten wir Sie bitten, sich kurz vor Ihrem Besuch telefonisch bei
+            uns zu melden. Mit freundlichen Grüßen Ihr Praxisteam
+          </p>
+          <h3 class="optionContainer__title">Rezeptbestellung</h3>
+          <p class="optionContainer__paragraph">
+            Rezeptbestellung: − Bestellen Sie bitte Ihre Rezepte telefonisch,
+            per Email oder per Fax. Die Rezepte können dann am Folgetag abgeholt
+            werden. Mit freundlichen Grüßen Ihr Praxisteam
+          </p>
+          <h3 class="optionContainer__title">
+            Hausarztzentrierte Versorgung (HZV)
+          </h3>
+          <span id="readMoreClick1" class="readMore">Mehr lesen</span>
+          <div id="moreContent1" class="moreContent1">
+            <p class="optionContainer__paragraph">
+              HAUSARZTZENTRIERTE VERSORGUNG (HZV) <br />
+              Im Hausarztprogramm, auch Hausarztzentrierte Versorgung (HZV)
+              genannt, wählen Patienten ihren Hausarzt als ersten
+              Ansprechpartner in allen Fragen zu ihrer Gesundheit. Das
+              Hausarztprogramm wurde eingeführt, um Patienten eine bessere und
+              umfassendere medizinische Versorgung anzubieten. Mit ihrer
+              Teilnahme entscheiden sich Patienten für ein Jahr immer zuerst
+              ihren Hausarzt aufzusuchen, der dann bei Bedarf die Behandlung mit
+              anderen Ärzten, Kliniken und Physiotherapeuten koordiniert.
+              Dadurch kann er alle Befunde in seiner Praxis sammeln und behält
+              leichter den Überblick z.B. über die verschriebenen Medikamente.
+              Überweisungen zu augenärztlichen, frauenärztlichen oder
+              kinderärztlichen Untersuchungen sind nicht erforderlich,
+              grundsätzlich aber dennoch sehr sinnvoll. Im Notfall können Sie
+              wie bisher andere Ärzte ohne Überweisung aufsuchen. Überweisungen
+              sind wichtig, um alle Befunde beim Hausarzt zusammenzuführen und
+              die Behandlung zu lenken. Wir bieten derzeit die
+              Hausarztzentrierte Versorgung für folgende Kassen an:
+            </p>
+            <ul class="readMoreList">
+              <li>pronovaBKK</li>
+              <li>SVLFG</li>
+              <li>Knappschaft</li>
+              <li>KKH</li>
+              <li>HKK</li>
+              <li>DAK</li>
+              <li>BKK Landesverband Mitte</li>
+              <li>Barmer</li>
+              <li>Audi BKK</li>
+              <li>AOK Bremen/Bremerhaven</li>
+              <li>AOK Niedersachsen</li>
+            </ul>
+
+            <p class="optionContainer__paragraph">
+              Für weitere Auskünfte steht unser Praxisteam gerne zur Verfügung.
+            </p>
+          </div>
+          <h3 class="optionContainer__title">
+            Ketamin-Infusion bei Depression
+          </h3>
+          <span id="readMoreClick2" class="readMore">Mehr lesen</span>
+          <div id="moreContent2" class="moreContent2">
+            <p class="optionContainer__paragraph">
+              Ketamin-Infusion bei Depression Ketamin ist ein seit Jahrzehnten
+              bekanntes Medikament, kommt ursprünglich aus der Anästhesie und
+              wird dort für Kurznarkosen verwendet. In einer niedrigen Dosierung
+              findet es ambulant Anwendung in der Schmerztherapie. Seit einigen
+              Jahren ist bekannt, dass Ketamin einen rasch einsetzenden
+              antidepressiven Effekt hat, der vor allem bei sehr schwer
+              depressiv Erkrankten oder bei akut selbstmordgefährdeten Patienten
+              genutzt wird. Die intensive Erforschung antidepressiver
+              Eigenschaften von Ketamin und erste klinische Studien gehen auf
+              Psychiater aus den USA um John Krystal (Yale) und Carlos Zarate
+              (National Institute of Mental Health) zurück. Bereits im Jahre
+              2000 wurde erstmalig eine rasche antidepressive Wirkung
+              beschrieben, welche mittlerweile in mehreren klinischen Studien
+              bestätigt wurde. Auch bei therapieresistenten Depressionen zeigt
+              Ketamin häufig eine gute Wirkung. Eine therapieresistente
+              Depression liegt vor, wenn die Gabe zweier Antidepressiva aus
+              unterschiedlichen Wirkstoffklassen nicht angesprochen hat. Dabei
+              müssen diese Medikamente hoch dosiert gegeben und ausreichend
+              lange verabreicht worden sein. Ketamin wird als Infusion über die
+              Vene über die Dauer von ca. 45 Minuten verabreicht. Während der
+              Infusion kommt es meist zu einem dissoziativen und „Rausch“
+              ähnlichen Erleben. Das bedeutet, dass der Patient das Gefühl hat,
+              als ob sein Körper sich loslöse. Diese Empfindungen werden von den
+              Patienten nach der Ketamin-Infusion meist als sehr angenehm
+              beschrieben. Sogenannte „bad trips“ wurden während
+              Ketamininfusionen sehr selten beobachtet und waren nach Abstellen
+              der Infusion sofort reversibel. Mögliche Nebenwirkungen sind
+              Blutdruckerhöhungen und Pulsbeschleunigungen. Für Patienten mit
+              schlecht eingestelltem oder hohem Blutdruck kommt die Behandlung
+              daher nicht infrage. Während der Infusion erfolgt eine
+              kontinuierliche Überwachung mit EKG-Monitor mit Messung der
+              Sauerstoffsättigung und des Blutdruckes. Die Akutwirkungen des
+              Ketaminrausches klingen innerhalb einiger Minuten nach dem Ende
+              der Infusion ab. Der antidepressive Effekt hält darüber hinaus an.
+              Die Dauer ist individuell sehr unterschiedlich, von wenigen
+              Stunden bis zu mehreren Wochen. Wir bieten ein Konzept mit
+              zunächst 3 Infusionen an, welche im wöchentlichen Abstand
+              verabreicht werden. Normalerweise ist zur Erhaltung des
+              Therapieerfolges eine weitere Infusion nach 3-4 Wochen
+              erforderlich. Diese kann im Bedarfsfall auch früher oder später
+              erfolgen. Es ist möglich, dass Patienten, bei denen zuvor keine
+              Therapie angeschlagen hat, dank Ketamin ganz aus den Depressionen
+              herauskommen. Nach der Ketamininfusion wird noch eine Ruhepause
+              von ca. einer Stunde benötigt, in der der Patient die Arztpraxis
+              nicht verlässt.
+            </p>
+            <p class="moreContent2-color">
+              Beachtet werden muss, dass der Patient für mehrere Stunden nach
+              der Ketamininfusion nicht fahrtauglich ist. Daher ist eine
+              Begleitperson oder zumindest jemand, der den Behandelten abholt,
+              sehr wichtig! Nicht geeignet ist eine Ketamininfusion bei:
+            </p>
+
+            <ul>
+              <li>Schwangeren oder stillenden Frauen</li>
+              <li>Menschen mit unbehandeltem Bluthochdruck</li>
+              <li>Menschen mit instabiler koronarer Herzkrankheit</li>
+              <li>Menschen mit erhöhtem Hirndruck</li>
+              <li>Menschen mit erhöhtem Augeninnendruck</li>
+              <li>Menschen mit schwerer Leber- bzw. Nierenfunktionsstörung</li>
+              <li>Menschen mit schwerer Alkohol- bzw. Drogenabhängigkeit</li>
+              <li>Menschen mit psychotischen Episoden</li>
+              <li>Menschen mit Harnblasenerkrankungen</li>
+            </ul>
+
+            <p class="optionContainer__paragraph">
+              Ketamininfusionen zur Behandlung von Depressionen sind eine
+              zulassungsüberschreitende Anwendung („Off-Label-Use“). Die rasch
+              einsetzende antidepressive und antisuizidale Wirkung von Ketamin
+              hat dazu geführt, dass Ketamininfusionen mittlerweile weltweit in
+              klinischer Routine als „Off-Label-Use“ eingesetzt werden. Eine
+              Zulassung für Ketamin als Antidepressivum bei therapieresistenter
+              Depression wird derzeit von Forschungsgruppen in Zusammenarbeit
+              mit pharmazeutischen Unternehmen bei der FDA (=
+              Lebensmittel-Überwachungs- und Arzneimittelbehörde der Vereinigten
+              Staaten) im Rahmen eines Eilzulassungsverfahrens angestrebt. Die
+              zulassungsüberschreitende antidepressive Anwendung von Ketamin ist
+              bei Beachtung von einigen Vorraussetzungen, welche in unserer
+              Praxis streng beachtet werden, auch in Deutschland erlaubt. Es
+              gibt derzeit in Deutschland mehrere Arztpraxen und Kliniken, die
+              Ketamin bei Depressionen mit Erfolg einsetzen.
+            </p>
+            <p class="moreContent2-color">
+              Gesetzliche Krankenkassen übernehmen die Kosten bei
+              antidepressiver Ketamininfusion bislang nicht! Sollten Sie
+              Interesse an einer Ketamin-Behandlung bei Depression haben,
+              sprechen Sie uns an. Unser Praxis-Team wird Sie gerne beraten.
+            </p>
+          </div>
+          <h3 class="optionContainer__title">
+            psychosomatische Grundversorgung
+          </h3>
+          <h3 class="optionContainer__title">Chirotherapie</h3>
+          <h3 class="optionContainer__title">
+            Laboruntersuchungen: Blutentnahme, Urinuntersuchung,
+            Stuhluntersuchung
+          </h3>
+          <h3 class="optionContainer__title">Impfungen</h3>
+          <h3 class="optionContainer__title">EKG</h3>
+          <h3 class="optionContainer__title">Langzeit-EKG</h3>
+          <h3 class="optionContainer__title">Langzeit-Blutdruckmessung</h3>
+          <h3 class="optionContainer__title">
+            Lungenfunktionstest (Spirometrie)
+          </h3>
+          <h3 class="optionContainer__title">
+            Ultraschalluntersuchung der Bauchorgane
+          </h3>
+          <h3 class="optionContainer__title">
+            Ultraschalluntersuchung des Bewegungsapparates und der Gelenke
+          </h3>
+          <h3 class="optionContainer__title">
+            Ultraschallscreening auf Bauchaortenaneurysmen
+          </h3>
+          <h3 class="optionContainer__title">Check-up-Untersuchungen</h3>
+          <h3 class="optionContainer__title">
+            Hautkrebs-Screening (Haut-Check)
+          </h3>
+          <h3 class="optionContainer__title">
+            Behandlung gutartiger Hauttumore
+          </h3>
+          <span id="readMoreClick3" class="readMore">Mehr lesen</span>
+          <div id="moreContent3" class="moreContent3">
+            <p class="optionContainer__paragraph">
+              Behandlung gutartiger Hauttumore
+            </p>
+            <br />
+            Zu den häufigsten gutartigen Hauttumoren zählen Fibrome, Nävi
+            (Muttermale), Warzen, Akanthome, Zysten, Atherome (Grützbeutel),
+            Lipome und Angiome. Gutartige Hauttumore können ästhetisch und
+            funktionell stören. Dann ist eine plastisch-chirurgische Entfernung
+            sinnvoll. Die Entfernungen der Hautveränderungen werden
+            normalerweise in örtlicher Betäubung durchgeführt. Eine Naht bei
+            sehr kleinen Hautveränderungen ist oft nicht erforderlich. Auch bei
+            größeren Hauttumoren sind wenige Einzelnähte für den Wundverschluss
+            meist ausreichend. Es muss beachtet werden, dass auch bei der
+            chirurgischen Entfernung gutartiger Hauttumore eine Narbe entsteht.
+            Diese ist jedoch in den meisten Fällen wesentlich unauffälliger als
+            der vorherige störende Hauttumor und allenfalls als heller Strich
+            oder Punkt sichtbar. Ergibt sich während der Operation der Verdacht,
+            dass der entfernte Hauttumor bösartig sein könnte, wird der
+            entfernte Hauttumor zur feingeweblichen Untersuchung eingeschickt.
+            Nach Erhalt des Untersuchungsergebnisses informieren wir Sie
+            selbstverständlich über den Befund und besprechen gemeinsam das
+            weitere Vorgehen.
+            <p class="moreContent2-color">
+              Bitte beachten Sie: Bei eindeutig gutartigen Hautveränderungen
+              geschieht die Entfernung auf Wunsch des Patienten aus ästhetischen
+              Gründen und ist damit keine Leistung der gesetzlichen
+              Krankenkasse. Unser Praxisteam berät Sie gerne!
+            </p>
+          </div>
+          <h3 class="optionContainer__title">Infusionsbehandlungen</h3>
+          <h3 class="optionContainer__title">
+            Wirbelsäulennahe Infiltrationsbehandlungen
+          </h3>
+          <h3 class="optionContainer__title">
+            Punktionen und Medikamentenapplikationen in Gelenke
+          </h3>
+          <h3 class="optionContainer__title">
+            Untersuchung nach dem Jugendarbeitsschutzgesetz (JArbSchUV)
+          </h3>
+          <h3 class="optionContainer__title">
+            Messung des Knöchel-Arm-Index (ABI)
+          </h3>
+          <h3 class="optionContainer__title">Der ABI-Test</h3>
+          <span id="readMoreClick4" class="readMore">Mehr lesen</span>
+          <div id="moreContent4" class="moreContent4">
+            <p class="optionContainer__paragraph">Der ABI-Test</p>
+            <br />
+            <p class="moreContent2-color">PAVK</p>
+            <p class="optionContainer__paragraph">
+              Die periphere arterielle Verschlusskrankheit, abgekürzt auch pAVK,
+              ist der entscheidende Risikomarker für Herzinfarkt und
+              Schlaganfall! Das Problem ist die eingeschränkte Blutversorgung,
+              meist eine Folge von Ablagerungen oder gar Verstopfungen in den
+              dafür verantwortlichen Blutgefäßen (Arterien).
+            </p>
+            <ul class="readMoreList">
+              <li>4,5 Mio Deutsche sind betroffen</li>
+              <li>
+                Die Lebenserwartung der Betroffenen ist um ca. 10 Jahre
+                vermindert, jeder 5. stirbt innerhalb von 5 Jahren.
+              </li>
+              <li>9 von 10 Patienten bleiben unentdeckt.</li>
+              <li>
+                Viele wissen darüber nicht Bescheid, da diese Erkrankung lange
+                Zeit keine Beschwerden verursacht. Sie macht sich meist erst
+                dann bemerkbar, wenn die Gefäße bereits geschädigt sind.
+              </li>
+              <li>
+                Die Folgen einer Gefäßkrankheit sind dramatischer, als man
+                zunächst annimmt. Wird sie nicht oder zu spät erkannt, droht ein
+                Herzinfarkt, ein Schlaganfall oder eine Amputation von
+                Gliedmaßen.
+              </li>
+              <li>
+                Durch optimale Vorsorge und regelmäßige Kontrolle kann eine
+                Gefäßerkrankung frühzeitig erkannt und behandelt werden. So kann
+                das Fortschreiten der Krankheit gebremst und ein Herzinfarkt
+                oder Schlaganfall vermieden werden.
+              </li>
+            </ul>
+            <h3 class="optionContainer__title">Wer ist besonders gefährdet?</h3>
+            <p class="optionContainer__paragraph">
+              Das Risiko für Durchblutungsstörungen erhöht sich mit dem
+              Lebensalter, weshalb für Männer ab 50 und Frauen ab 60 Jahren ein
+              Test empfohlen wird. Unabhängig vom Alter sollte besonders für
+              Patienten mit erhöhtem Blutdruck, Übergewicht, Bewegungsmangel,
+              Cholesterinerhöhung oder erblichen Vorbelastungen eine regelmäßige
+              Kontrolle selbstverständlich sein. Gleiches gilt für Diabetiker
+              und Raucher.
+            </p>
+            <h3 class="optionContainer__title">
+              Wie erkennt man Durchblutungsstörungen?
+            </h3>
+            <p class="optionContainer__paragraph">
+              Der ABI-Test ist ein bewährtes medizinisches Messverfahren und
+              gehört zu den aussagekräftigsten Untersuchungen zur Erkennung von
+              Durchblutungsstörungen. ABI steht für den englischen Begriff Ankle
+              Brachial Index. Dabei werden durch gleichzeitige Messung an beiden
+              Armen und beiden Beinen Informationen über das Gefäßsystem
+              gesammelt und mit einer wissenschaftlich gesicherten Formel
+              zuverlässig ausgewertet. Der daraus ermittelte ABI-Wert gibt
+              Aufschluss über das persönliche Risiko für Herzinfarkt oder
+              Schlaganfall.
+            </p>
+            <h3 class="optionContainer__title">
+              Wie wird die Messung durchgeführt?
+            </h3>
+            <p class="optionContainer__paragraph">
+              Eine ABI-Messung ist nicht schmerzhaft und dauert mit dem boso
+              ABI-system 100 nur 1 Minute. Der Ablauf dieser Messung ist
+              vergleichbar mit der klassischen Blutdruckmessung am Oberarm. Nach
+              der Messung werden die Werte an einen PC weitergeleitet und
+              automatisch der linke und der rechte ABI berechnet.
+            </p>
+            <p class="moreContent2-color">
+              Sollten Sie Interesse an einem ABI-Test haben, sprechen Sie uns
+              an. Unser Praxis-Team wird Sie gerne beraten.
+            </p>
+            <h3 class="optionContainer__title">
+              Tauglichkeitsuntersuchung für Sporttaucher
+            </h3>
+            <h3 class="optionContainer__title">
+              Fahrtauglichkeitsuntersuchung
+            </h3>
+            <h3 class="optionContainer__title">
+              weitere individuelle Gesundheitsleistungen (IGeL)
+            </h3>
+            <h3 class="optionContainer__title">
+              Um Ihnen bei chronischen Krankheiten besser helfen zu können,
+              nehmen wir an verschiedenen Hausarztprogrammen (Disease Management
+              Programme, DMP) der Krankenkassen teil:
+            </h3>
+            <ul class="readMoreList">
+              <li>Diabetes mellitus Typ 2</li>
+              <li>Koronare Herzkrankheit (KHK)</li>
+              <li>Chronisch obstruktive Lungenerkrankung (COPD)</li>
+              <li>Asthma bronchiale</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="praxisContent" class="praxisContent">
+        <div class="praxisContent__item">
+          <h3 class="praxisContent__title">THERAPIEBEREICH</h3>
+          <img
+            class="praxisContent__img"
+            src="assets/images/1consultant-room-hire-derby-1024x768.jpg"
+            alt="consultant-romm" />
+        </div>
+        <div class="praxisContent__item">
+          <h3 class="praxisContent__title">SPRECHZIMMER</h3>
+          <img
+            class="praxisContent__img"
+            src="assets/images/2doctor-548133_1280.jpg"
+            alt="doctor-pic" />
+        </div>
+        <div class="praxisContent__item">
+          <h3 class="praxisContent__title">ANALYSEBEREICH</h3>
+          <img
+            class="praxisContent__img"
+            src="assets/images/3laboratory-563423_1280.jpg"
+            alt="laboratory-pic" />
+        </div>
+        <div class="praxisContent__item">
+          <h3 class="praxisContent__title">WARTEZIMMER</h3>
+          <img
+            class="praxisContent__img"
+            src="assets/images/4medical-5478792_1280.jpg"
+            alt="medical-pic" />
+        </div>
+        <div class="praxisContent__item">
+          <h3 class="praxisContent__title">ULTRASCHALLGERÄT</h3>
+          <img
+            class="praxisContent__img"
+            src="assets/images/5medizinischer Ultraschall.jpg"
+            alt="ultrasound-pic" />
+        </div>
+        <div class="praxisContent__item">
+          <h3 class="praxisContent__title">STETHOSKOP</h3>
+          <img
+            class="praxisContent__img"
+            src="assets/images/6Stethoskop.webp"
+            alt="tethoskop-pic" />
+        </div>
+        <div class="praxisContent__item">
+          <h3 class="praxisContent__title">THERAPIEBEREICH</h3>
+          <img
+            class="praxisContent__img"
+            src="assets/images/7treatment-room-548143_1280.jpg"
+            alt="treatment-pic" />
+        </div>
+        <div class="praxisContent__item">
+          <h3 class="praxisContent__title">BEHANDLUNGSRAUM</h3>
+          <img
+            class="praxisContent__img"
+            src="assets/images/8hospital-7115348_1280.jpg"
+            alt="clinic-pic" />
+        </div>
+      </div>
+      <div id="praxisTeam" class="praxisTeam">
+        <div class="praxisContent__item">
+          <img
+            class="praxisTeam__img"
+            src="assets/images/doctor-5997514_1280.jpg"
+            alt="consultant-romm" />
+          <h3 class="praxisContent__title">DR. MED. UNIV GRAZ MÜLLER</h3>
+          <p class="praxisTeam__title">
+            FACHARZT FÜR ALLGEMEINMEDIZIN FACHARZT FÜR ORTHOPÄDIE UND
+            UNFALLCHIRURGIE (PRIVAT) CHIROTHERAPIE
+          </p>
+        </div>
+        <div class="praxisTeam__item">
+          <img
+            class="praxisTeam__img"
+            src="assets/images/dr-2157993_1280.jpg"
+            alt="doctor-pic" />
+          <h3 class="praxisContent__title">
+            SABINE MÜLLER: MEDIZINISCHE FACHANGESTELLTE
+          </h3>
+        </div>
+        <div class="praxisTeam__item">
+          <img
+            class="praxisTeam__img"
+            src="assets/images/nurse-4962034_1280.jpg"
+            alt="laboratory-pic" />
+          <h3 class="praxisContent__title">
+            JESSICA MÜLLER: MEDIZINISCHE FACHANGESTELLTE
+          </h3>
+        </div>
+        <div class="praxisContent__item">
+          <img
+            class="praxisTeam__img"
+            src="assets/images/doctor-5707722_1280.jpg"
+            alt="medical-pic" />
+          <h3 class="praxisContent__title">
+            RALF MÜLLER: MEDIZINISCHE FACHANGESTELLTE
+          </h3>
+        </div>
+        <div class="praxisContent__item">
+          <img
+            class="praxisTeam__img"
+            src="assets/images/woman-5829666_1280.jpg"
+            alt="ultrasound-pic" />
+          <h3 class="praxisContent__title">
+            MICHAELA MÜLLER: MEDIZINISCHE FACHANGESTELLTE
+          </h3>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1 id="header__title" class="header__title">
+          Praxis Dr. med. Univ. Graz Müller
+        </h1>
+        <div class="header__texts">
+          <span id="adresse" class="header__adresse"></span>
+          <span id="phoneNumber" class="header__adresse"></span>
+        </div>
+        <div id="header__adreNum" class="header__adreNum">
+          <i id="location" class="fa-solid fa-location-dot"></i>
+          <i id="phone" class="fa-solid fa-phone"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="modeDarkLiegt">
+          <i id="iconMode" class="fa-solid fa-circle-half-stroke"></i>
+          <span id="modeDarkLight" class="modeDarkLiegt__text">Dark mode</span>
+        </div>
+        <div class="doctorcontainer">
+          <img
+            class="doctor-mueller"
+            src="assets/images/doctor-5997514_1280.jpg"
+            alt="doctor-img" />
+          <h5 class="mueller-title">HERR DR. MED. UNIV. GRAZ MÜLLER</h5>
+        </div>
+      </section>
+      <section class="infection section-style">
+        <h3 class="infection__title">
+          INFEKTIONSSPRECHSTUNDE montags - freitags in der Zeit von 11:30 -
+          12:30
+        </h3>
+        <p>
+          Patienten, die Symptome eines grippalen Infektes (z.B. Husten,
+          Halsschmerzen, Fieber, Gliederschmerzen etc.) oder Symptome eines
+          Magen-Darm-Infektes (Erbrechen, Durchfall) aufweisen, werden gebeten,
+          sich für diese Infektionssprechstunde vorher telefonisch anzumelden.
+          Alle anderen Patienten dürfen zu ihrem Eigenschutz in der Zeit von
+          11:30 bis 12:30 unsere Praxis nicht betreten! Vielen Dank für Ihr
+          Verständnis
+        </p>
+      </section>
+      <section class="welcome section-style">
+        <h2 class="welcome__title">
+          Herzlich Willkommen auf der Homepage der Praxis Dr. med. Univ. Graz
+          Müller
+        </h2>
+        <p>
+          Wir sind eine allgemeinmedizinische Praxis und möchten Ihnen eine
+          umfassende hausärztliche allgemeinmedizinische Medizin anbieten. Auf
+          unseren Seiten geben wir Ihnen unter anderem einen Überblick über
+          unsere Leistungen, die Ausstattung unserer Praxis und Sie haben die
+          Möglichkeit, mit uns in Kontakt zu treten. Unsere Internetseiten
+          werden regelmäßig aktualisiert und sind frei von Sponsoren. Die
+          Navigation in unserem Angebot ist so gestaltet, dass die gewünschten
+          Informationen schnell und mühelos aufgefunden werden können. Wenn Sie
+          Fragen und Anregungen zum Aufbau und Inhalt unserer Seiten haben,
+          zögern Sie nicht, uns darauf anzusprechen. Wir wünschen Ihnen viel
+          Spaß auf unserer Homepage und verbleiben mit freundlichen Grüßen. Herr
+          Dr. med. Univ. Graz Müller
+        </p>
+      </section>
+      <section class="activities section-style">
+        <img
+          class="img-style"
+          src="assets/images/analysis-2030261_1280.jpg"
+          alt="analysis-img" />
+        <h3 class="activities__title">Unsere Leistungen</h3>
+        <p class="activities__paragraph">
+          Auf dieder Seitegeben wir Ihnen eine Überblick über unsere Leistungen
+        </p>
+        <div class="activities__route">
+          <a class="activities__readMore" href="#">Mehr Lesen</a>
+          <a class="activities__readMore" href="#">Terminvergabe</a>
+          <a class="activities__readMore" href="#">Rezeptbestellung</a>
+        </div>
+        <img
+          class="img-style"
+          src="assets/images/chair-2584260_1280.jpg"
+          alt="chair-img" />
+        <h3 class="activities__title">Die Praxis</h3>
+        <p class="activities__paragraph">
+          Hier erhalten Sie einen kleinen Einblick in unsere Praxis, anhand
+          einiger exemplarischer Fotos.
+        </p>
+        <div class="activities__route">
+          <a class="activities__readMore" href="#">Mehr Lesen</a>
+        </div>
+        <img
+          class="img-style"
+          src="assets/images/dentist-in-udaipur-6248206_1280.jpg"
+          alt="" />
+        <h3 class="activities__title">Das Praxisteam</h3>
+        <p class="activities__paragraph">
+          Hier können Sie sich über unsere Mitarbeiter und deren Qualifikation
+          informieren.
+        </p>
+        <div class="activities__route">
+          <a class="activities__readMore" href="#">Mehr Lesen</a>
+        </div>
+      </section>
+      <section class="location-contact">
+        <div class="location__contact">
+          <h3 class="location-title">Kontakt</h3>
+          <div class="container-footer">
+            <p>Praxis Müller</p>
+            <p>Müllerstr. 10</p>
+            <p>48529 Nordhorn</p>
+            <p>Tel 12345 12345 | Fax 12345 12345</p>
+            <a href="#">info@praxis-mueller.com</a>
+          </div>
+          <div class="container-location">
+            <p class="location-text">
+              Eingehende E-mails werden zeitnah bearbeitet. Die E-Mailanfragen
+              werden in der Praxis vertraulich behandelt, jedoch erfolgt eine
+              ungeschützte Übermittlung der E-mails. Wir respektieren die
+              ärztliche Berufsordnung, die die individuelle Beratung von
+              Patienten, die der Ärztin bzw. dem Arzt nicht persönlich bekannt
+              sind, untersagt und raten Ihnen, einen Termin zu
+              vereinbaren/unsere Sprechstunde aufzusuchen.
+            </p>
+            <iframe
+              class="location-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2045.9622582433533!2d7.076144207744135!3d52.42347725026434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b82194e910d91b%3A0xa2d8cda91410bb85!2sSauvageodstra%C3%9Fe%209%2C%2048529%20Nordhorn!5e0!3m2!1sen!2sde!4v1696333629379!5m2!1sen!2sde"
+              width="90%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="Js/script.js"></script>
+  </body>
 </html>
